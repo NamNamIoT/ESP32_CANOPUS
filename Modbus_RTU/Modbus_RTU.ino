@@ -1,4 +1,4 @@
-#include "kitdevesp32.h"
+#include "Canopus_Modbus.h"
 ModbusMaster node;
 
 void setup()
@@ -6,9 +6,9 @@ void setup()
   pinMode(25, OUTPUT);
   pinMode(27, OUTPUT);
   Serial.begin(115200);
-  Serial.print("\r\n*****************KIT DEV ESP32*******************");
-  Serial_kitdev.begin(9600, SERIAL_8N1); 
-  node.begin(1, Serial_kitdev); //ID node 1
+  Serial.print("\r\n*****************CANOPUS BOARD*******************");
+  Serial_Canopus.begin(9600, SERIAL_8N1); 
+  node.begin(1, Serial_Canopus); //ID node 1
 }
 void loop()
 { 

@@ -1,5 +1,4 @@
-//KIT_DEV_ES
-#include "kitdevesp32.h"
+#include "Canopus_Modbus.h"
 ModbusMaster::ModbusMaster(void)
 {
   _idle = 0;
@@ -14,12 +13,12 @@ Assigns the Modbus slave ID and serial port.
 Call once class has been instantiated, typically within setup().
 
 @param slave Modbus slave ID (1..255)
-@param &serial reference to serial port object (Serial, Serial_kitdev, ...)
+@param &serial reference to serial port object (Serial, Serial_Canopus, ...)
 @ingroup setup
 */
 void ModbusMaster::begin(uint8_t slave, HardwareSerial &serial)
 {
-#ifdef KIT_DEV_ESP32
+#ifdef Canopus_ESP32
   _u8MBSlave = slave;
   _serial = &serial;
   _u8TransmitBufferIndex = 0;
@@ -338,10 +337,10 @@ register.
 uint8_t ModbusMaster::readInputRegisters(uint16_t u16ReadAddress,
   uint8_t u16ReadQty)
 {
-  if(Serial_kitdev!=Serial2) {Serial.print("Fail, not kit dev esp32"); while(1);}
+  if(Serial_Canopus!=Serial2) {Serial.print("Fail, not kit dev esp32"); while(1);}
   _u16ReadAddress = u16ReadAddress;
   _u16ReadQty = u16ReadQty;
-  delay(100);
+  delay(10);
   return ModbusMasterTransaction(ku8MBReadInputRegisters);
 }
 

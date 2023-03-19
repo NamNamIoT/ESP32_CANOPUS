@@ -1,25 +1,8 @@
-/**
-@file
-Arduino library for communicating with Modbus slaves over RS232/485 (via RTU protocol).
+#define Canopus_ESP32
 
-@defgroup setup ModbusMaster Object Instantiation/Initialization
-@defgroup buffer ModbusMaster Buffer Management
-@defgroup discrete Modbus Function Codes for Discrete Coils/Inputs
-@defgroup register Modbus Function Codes for Holding/Input Registers
-@defgroup constant Modbus Function Codes, Exception Codes
-*/
-/*
-*/
-
-  
-#ifndef kitdevesp32_h
-#define kitdevesp32_h
-
-#define KIT_DEV_ESP32
-
-#ifdef KIT_DEV_ESP32
-#define Serial_kitdev Serial2
-#endif KIT_DEV_ESP32
+#ifdef Canopus_ESP32
+#define Serial_Canopus Serial2
+#endif Canopus_ESP32
 
 #define __MODBUSMASTER_DEBUG__ (0)
 
@@ -222,7 +205,7 @@ class ModbusMaster
     static const uint8_t ku8MBReadWriteMultipleRegisters = 0x17; ///< Modbus function 0x17 Read Write Multiple Registers
     
     // Modbus timeout [milliseconds]
-    static const uint16_t ku16MBResponseTimeout          = 1000; ///< Modbus timeout [milliseconds]
+    static const uint16_t ku16MBResponseTimeout          = 200; ///< Modbus timeout [milliseconds]
     
     // master function that conducts Modbus transactions
     uint8_t ModbusMasterTransaction(uint8_t u8MBFunction);
@@ -234,7 +217,7 @@ class ModbusMaster
     // postTransmission callback function; gets called after a Modbus message has been sent
     void (*_postTransmission)();
 };
-#endif
+
 
 /**
 @example examples/Basic/Basic.pde
