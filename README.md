@@ -1,4 +1,3 @@
-
 # ESP32_Canopus Module Quick Start Guide
 
 #### Information ESP32_Canopus board
