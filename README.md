@@ -21,21 +21,17 @@ If you need modify or any request for design hardware, development of product Io
 
 #### 🧑🏻‍🔧 Hardware Setup 
 -Connect power via terminal DC+ and DC- or via USB type C, both way can same time.
-
 -Connect ethernet (if need) for run ethernet, modbus TCP/IP...etc related to ethernet.
-
 -Connect RS485 (pin A to A, pin B to B) with device modbus, or PLC, PC/laptop tool...
-
 
 #### 🧑🏼‍💻 Software
 -Install IDE arduino. Follow this, skip if you done.
-
 -Install ESP32 in manager board
-
 -Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)
-
 -Check denife pin ethernet
 
+Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board. 
+You will be stronger after working through the next 9 examples.
 
 (1) Blink led
 
