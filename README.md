@@ -42,7 +42,7 @@ You will be stronger after working through the next 9 examples.
 (7) Auto switch many WiFi in list  
 (8) Push value modbus to MQTT  
 (9) On/off led via MQTT  
-(10) FOTA - update firmware via Internet with FTP
-(11) WATCHDOG timmer
-(12) Deep sleep
+(10) FOTA - update firmware via Internet with FTP  
+(11) WATCHDOG timmer  
+(12) Deep sleep  
 
