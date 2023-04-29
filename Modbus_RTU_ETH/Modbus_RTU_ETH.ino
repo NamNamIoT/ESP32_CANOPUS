@@ -67,10 +67,10 @@ void setup()
   Serial.print("\r\n*****************KIT DEV ESP32*******************");
   pinMode(14, OUTPUT);
   digitalWrite(14, HIGH);
-  pinMode(32, OUTPUT);
-  digitalWrite(32, HIGH);
-  pinMode(33, OUTPUT);
-  digitalWrite(33, HIGH);
+  pinMode(2, OUTPUT);
+  digitalWrite(2, HIGH);
+  pinMode(15, OUTPUT);
+  digitalWrite(15, HIGH);
   delay(1000);
   WiFi.onEvent(WiFiEvent);
   ETH.begin();

@@ -33,20 +33,16 @@ If you need modify or any request for design hardware, development of product Io
 Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board.   
 You will be stronger after working through the next 9 examples.
 
-(1) Blink led
+(1) Blink led  
+(2) Read modbus slave via RTU  
+(3) Read modbus slave via TCP/IP  
+(4) Serve master RTU (board is slave)  
+(5) Serve master TCP/IP (board is slave)  
+(6) Auto switch WiFi-Ethernet  
+(7) Auto switch many WiFi in list  
+(8) Push value modbus to MQTT  
+(9) On/off led via MQTT  
+(10) FOTA - update firmware via Internet with FTP
+(11) WATCHDOG timmer
+(12) Deep sleep
 
-(2) Read modbus slave via RTU
-
-(3) Read modbus slave via TCP/IP
-
-(4) Serve master RTU (board is slave)
-
-(5) Serve master TCP/IP (board is slave)
-
-(6) Auto switch WiFi-Ethernet
-
-(7) Auto switch many WiFi in list
-
-(8) Push value modbus to MQTT
-
-(9) On/off led via MQTT
