@@ -25,7 +25,7 @@ If you need modify or any request for design hardware, development of product Io
 -Connect RS485 (pin A to A, pin B to B) with device modbus, or PLC, PC/laptop tool...  
 
 #### 🧑🏼‍💻 Software
-+Install IDE arduino. Follow [this](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE), skip if you done.
++Install IDE arduino. Follow [this](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE), skip if you done.  
 +Install driver CH340. Follow [this](https://electropeak.com/learn/how-to-install-ch340-driver/), skip if you done.  
 +Install ESP32 in manager board:  
   - Down load this folder: [hardware](https://mega.nz/file/e3wlwIAI#vFoR5nT5x3zT5wkQSVknqihluzf_9Ng89H5CxPmu3Io)  
