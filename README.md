@@ -1,8 +1,19 @@
 # ESP32_Canopus Module Quick Start Guide
 
-#### Information ESP32_Canopus board
+#### Information ESP32_Canopus board  
 
-- Power: 5-24V
+|     **Object**    |      **Detail conponent**      |          **Note**     |
+| ----------------- | ------------------------------ | ----------------------|
+|        Power      | MC34063A                       | 5-35VDC               |
+|       Ethernet    | LAN8720A  (RJ45: HR911105A)    | -                     |
+|        RS485      | SP485EE                        | Serial2               |
+|         I2C       | -                              | SDA = IO33, SCL = IO4 |
+|      Led blue     | -                              | PIN IO5               |
+|      Led yellow   | -                              | PIN IO12              |
+|       Button      | -                              | PIN IO36              |
+|       ESP32       | ESP32 WROOM 32D                | -                     | 
+
+
 - Ethernet (LAN8720A + HR911105A)
 - RS485 auto DERE x1 port (SP485EE)
 - I2C x1 port
