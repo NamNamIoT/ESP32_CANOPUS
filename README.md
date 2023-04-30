@@ -25,7 +25,7 @@ If you need modify or any request for design hardware, development of product Io
 -Connect RS485 (pin A to A, pin B to B) with device modbus, or PLC, PC/laptop tool...  
 
 #### 🧑🏼‍💻 Software
--Install IDE arduino. Follow [this]([https://www.google.com](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)), skip if you done.  
+-Install IDE arduino. Follow [this](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE), skip if you done.  
 
 -Install ESP32 in manager board  
 -Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)  
