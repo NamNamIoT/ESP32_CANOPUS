@@ -6,20 +6,13 @@
 | ----------------- | ------------------------------ | ----------------------|
 |        Power      | MC34063A                       | 5-35VDC               |
 |       Ethernet    | LAN8720A  (RJ45: HR911105A)    | -                     |
-|        RS485      | SP485EE                        | Serial2               |
+|        RS485      | SP485EE                        | Serial2, auto DERE    |
 |         I2C       | -                              | SDA = IO33, SCL = IO4 |
 |      Led blue     | -                              | PIN IO5               |
 |      Led yellow   | -                              | PIN IO12              |
 |       Button      | -                              | PIN IO36              |
-|       ESP32       | ESP32 WROOM 32D                | -                     | 
-
-
-- Ethernet (LAN8720A + HR911105A)
-- RS485 auto DERE x1 port (SP485EE)
-- I2C x1 port
-- Led status, button.
-- Plastic case box
-- ESP32 WROOM 32D
+|       ESP32       | ESP32 WROOM 32D                | -                     |
+|       Case        | Plastic                        | Mount dinrail         |  
 
 ## ✌️✌️✌️ Welcome! ✌️✌️✌️
 If you need modify or any request for design hardware, development of product IoT please contact me 🕴🏼:
