@@ -1,5 +1,13 @@
 # ESP32_Canopus Module Quick Start Guide
 
+## ✌️✌️✌️ Welcome! ✌️✌️✌️
+If you need modify or any request for design hardware, development of product IoT please contact me 🕴🏼:
+- 👊🏻Facebook https://www.facebook.com/kuem0912/ 
+- 👊🏻Email: thanhnamLT5@gmail.com
+- 👊🏻Number phone: +84932912789
+- 👊🏻Whatsapp: +84969809444
+
+🕵🏻‍♀️Version 1.0  
 #### Information ESP32_Canopus board  
 
 |     **Object**    |      **Detail conponent**      |          **Note**     |
@@ -13,15 +21,6 @@
 |       Button      | -                              | PIN IO36              |
 |       ESP32       | ESP32 WROOM 32D                | -                     |
 |       Case        | Plastic                        | Mount dinrail         |  
-
-## ✌️✌️✌️ Welcome! ✌️✌️✌️
-If you need modify or any request for design hardware, development of product IoT please contact me 🕴🏼:
-- 👊🏻Facebook https://www.facebook.com/kuem0912/ 
-- 👊🏻Email: thanhnamLT5@gmail.com
-- 👊🏻Number phone: +84932912789
-- 👊🏻Whatsapp: +84969809444
-
-🕵🏻‍♀️Version 1.0
 
 #### 🧑🏻‍🔧 Hardware Setup 
 -Connect power via terminal DC+ and DC- or via USB type C, both way can same time.  
