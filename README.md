@@ -18,8 +18,8 @@ Please contact me if you have a need to develop ioT products.
 |       Ethernet    | LAN8720A  (RJ45: HR911105A)    | -                     |
 |        RS485      | SP485EE                        | Serial2, auto DERE    |
 |         I2C       | -                              | SDA = IO33, SCL = IO4 |
-|      Led blue     | -                              | PIN IO5               |
-|      Led yellow   | -                              | PIN IO12              |
+|      Led blue     | -                              | PIN IO15              |
+|      Led yellow   | -                              | PIN IO2               |
 |       Button      | -                              | PIN IO36              |
 |       ESP32       | ESP32 WROOM 32D                | -                     |
 |       Case        | Plastic                        | Mount dinrail         |  
@@ -40,14 +40,16 @@ Please contact me if you have a need to develop ioT products.
   ![ESP32 install](https://user-images.githubusercontent.com/49629370/235330978-d56cb96c-8032-4c83-995e-6e6720e585da.png)
   + Check it in IDE:  
   ![image](https://user-images.githubusercontent.com/49629370/235331088-db8737b9-3053-4350-bb5f-e3c348a513bb.png)  
-  
-## Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board.   
-You will be stronger after working through the next 9 examples.
+    
+    
+## At here , you are ready 👌 to execute the sample code for the ESP32_CANOPUS board  
+###  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because here is a fascinating journey with Canopus board 🤪.   
+You will be stronger after working through the next 12 examples.
 
 ### (1) Blink led  
 
 ```c
-#define LED_YELLOW 12 //Pin led color yellow is IO12
+#define LED_YELLOW 2 //Pin led color yellow is IO2
 void setup() {
   // initialize digital pin LED_YELLOW as an output.
   pinMode(LED_YELLOW, OUTPUT);
