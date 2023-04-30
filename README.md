@@ -35,21 +35,21 @@ If you need modify or any request for design hardware, development of product Io
   + Check it in IDE:  
   ![image](https://user-images.githubusercontent.com/49629370/235331088-db8737b9-3053-4350-bb5f-e3c348a513bb.png)  
   
-Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board.   
+## H2 Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board.   
 You will be stronger after working through the next 9 examples.
 
-(1) Blink led  
+## H3(1) Blink led  
 ![image](https://user-images.githubusercontent.com/49629370/235331527-af7d6654-5fdb-42ab-abee-dfee8e70fef5.png)  
 
-(2) Read modbus slave via RTU  
-(3) Read modbus slave via TCP/IP  
-(4) Serve master RTU (board is slave)  
-(5) Serve master TCP/IP (board is slave)  
-(6) Auto switch WiFi-Ethernet  
-(7) Auto switch many WiFi in list  
-(8) Push value modbus to MQTT  
-(9) On/off led via MQTT  
-(10) FOTA - update firmware via Internet with FTP  
-(11) WATCHDOG timmer  
-(12) Deep sleep  
+## H3(2) Read modbus slave via RTU  
+## H3(3) Read modbus slave via TCP/IP  
+## H3(4) Serve master RTU (board is slave)  
+## H3(5) Serve master TCP/IP (board is slave)  
+## H3(6) Auto switch WiFi-Ethernet  
+## H3(7) Auto switch many WiFi in list  
+## H3(8) Push value modbus to MQTT  
+## H3(9) On/off led via MQTT  
+## H3(10) FOTA - update firmware via Internet with FTP  
+## H3(11) WATCHDOG timmer  
+## H3(12) Deep sleep  
 
