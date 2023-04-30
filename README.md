@@ -49,8 +49,8 @@ Please contact me if you have a need to develop ioT products.
 ## At here , you are ready 👌 to execute the sample code for the ESP32_CANOPUS board  
 ####  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because the next is a fascinating journey with Canopus board 🤪.   
 You will be stronger after working through the next 12 examples.  
-#### [Blink led](#1.Blink)
-#### [Read modbus slave via RTU](#2.Modbus_Slave)
+#### [Blink led](#Blink)
+#### [Read modbus slave via RTU](#Modbus_Slave)
 Read modbus slave via TCP/IP  
 Serve master RTU  
 Serve master TCP/IP  
@@ -62,7 +62,7 @@ FOTA - update firmware via Internet with FTP
 WATCHDOG timmer  
 Deep sleep  
 
-#### 1.Blink  
+#### Blink  
 
 ```c
 #define LED_YELLOW 2 //Pin led color yellow is IO2
@@ -80,7 +80,7 @@ void loop() {
 }
 ```
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
-#### 2.Modbus_Slave
+#### Modbus_Slave
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
 #### 3. Read modbus slave via TCP/IP  
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
