@@ -39,7 +39,38 @@ If you need modify or any request for design hardware, development of product Io
 You will be stronger after working through the next 9 examples.
 
 ### (1) Blink led  
-![image](https://user-images.githubusercontent.com/49629370/235331527-af7d6654-5fdb-42ab-abee-dfee8e70fef5.png)  
+```
+
+**Modbus RTU**
+
+Modbus RTU use Serial1 on RAK3172_Canopus board
+
+| **Serial Port**   | **Serial Instance Assignment** | **Default Mode** |
+| ----------------- | ------------------------------ | ---------------- |
+| UART1 (pins 4, 5) | Serial1                        | Custom Mode      |
+
+![RAKmodbus](https://user-images.githubusercontent.com/49629370/224534542-f279d2f3-cd5c-4dbe-8af6-d8c383c315a0.PNG)
+
+
+**Example Code**
+
+Make sure you have an ModbusRTU device connected to pin A and B on Rak3172_Canopus board:
+
+```c
+#define LED_YELLOW 12 //Pin led color yellow is IO12
+void setup() {
+  // initialize digital pin LED_YELLOW as an output.
+  pinMode(LED_YELLOW, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_YELLOW, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_YELLOW, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
 ### (2) Read modbus slave via RTU  
 ### (3) Read modbus slave via TCP/IP  
