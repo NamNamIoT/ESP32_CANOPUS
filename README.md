@@ -50,7 +50,7 @@ Please contact me if you have a need to develop ioT products.
 ####  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because the next is a fascinating journey with Canopus board 🤪.   
 You will be stronger after working through the next 12 examples.  
 #### [Blink led](#Blink)
-#### Read modbus slave via RTU  
+#### [Read modbus slave via RTU](#Modbus_Slave)
 Read modbus slave via TCP/IP  
 Serve master RTU  
 Serve master TCP/IP  
@@ -80,7 +80,7 @@ void loop() {
 }
 ```
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
-#### 2. Read modbus slave via RTU  
+#### Modbus_Slave
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
 #### 3. Read modbus slave via TCP/IP  
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
