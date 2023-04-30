@@ -50,7 +50,7 @@ Please contact me if you have a need to develop ioT products.
 ####  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because the next is a fascinating journey with Canopus board 🤪.   
 You will be stronger after working through the next 12 examples.
 
-### (1) Blink led  
+#### 1. Blink led  
 
 ```c
 #define LED_YELLOW 2 //Pin led color yellow is IO2
@@ -68,15 +68,26 @@ void loop() {
 }
 ```
 You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
-### (2) Read modbus slave via RTU  
-### (3) Read modbus slave via TCP/IP  
-### (4) Serve master RTU (board is slave)  
-### (5) Serve master TCP/IP (board is slave)  
-### (6) Auto switch WiFi-Ethernet  
-### (7) Auto switch many WiFi in list  
-### (8) Push value modbus to MQTT  
-### (9) On/off led via MQTT  
-### (10) FOTA - update firmware via Internet with FTP  
-### (11) WATCHDOG timmer  
-### (12) Deep sleep  
+#### 2. Read modbus slave via RTU  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 3. Read modbus slave via TCP/IP  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 4. Serve master RTU (board is slave)  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 5. Serve master TCP/IP (board is slave)  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 6. Auto switch WiFi-Ethernet  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 7. Auto switch many WiFi in list  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 8. Push value modbus to MQTT  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 9. On/off led via MQTT  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 10. FOTA - update firmware via Internet with FTP  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 11. WATCHDOG timmer  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
+#### 12. Deep sleep  
+You can find it in examples: [Download](https://github.com/NamNamIoT/ESP32_CANOPUS/tree/master/examples)  
 
