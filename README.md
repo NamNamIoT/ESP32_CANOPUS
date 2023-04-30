@@ -26,8 +26,11 @@ If you need modify or any request for design hardware, development of product Io
 
 #### 🧑🏼‍💻 Software
 -Install IDE arduino. Follow [this](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE), skip if you done.  
-
--Install ESP32 in manager board  
+-Install ESP32 in manager board:  
+  + Down load this folder: [hardware](https://mega.nz/file/e3wlwIAI#vFoR5nT5x3zT5wkQSVknqihluzf_9Ng89H5CxPmu3Io)  
+  + Extract at ...\Documents\Arduino. Ex my computer: C:\Users\NamPC\Documents\Arduino  
+  + Go to ...\Documents\Arduino\hardware\espressif\esp32\tools  
+  + Click get and gen: ![image](https://user-images.githubusercontent.com/49629370/235330935-be6c2445-c665-4973-aba1-e29e1d5391f0.png)
 -Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)  
 -Check denife pin ethernet  
 
