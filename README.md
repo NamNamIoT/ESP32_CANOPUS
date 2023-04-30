@@ -34,15 +34,13 @@ If you need modify or any request for design hardware, development of product Io
   ![ESP32 install](https://user-images.githubusercontent.com/49629370/235330978-d56cb96c-8032-4c83-995e-6e6720e585da.png)
   + Check it in IDE:  
   ![image](https://user-images.githubusercontent.com/49629370/235331088-db8737b9-3053-4350-bb5f-e3c348a513bb.png)  
-    
-    
--Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)  
--Check denife pin ethernet  
-
+  
 Prepare yourself a cup of coffee, because here is a fascinating journey with Canopus board.   
 You will be stronger after working through the next 9 examples.
 
 (1) Blink led  
+![image](https://user-images.githubusercontent.com/49629370/235331527-af7d6654-5fdb-42ab-abee-dfee8e70fef5.png)  
+
 (2) Read modbus slave via RTU  
 (3) Read modbus slave via TCP/IP  
 (4) Serve master RTU (board is slave)  
