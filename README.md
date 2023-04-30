@@ -30,8 +30,10 @@ If you need modify or any request for design hardware, development of product Io
   + Down load this folder: [hardware](https://mega.nz/file/e3wlwIAI#vFoR5nT5x3zT5wkQSVknqihluzf_9Ng89H5CxPmu3Io)  
   + Extract at ...\Documents\Arduino. Ex my computer: C:\Users\NamPC\Documents\Arduino  
   + Go to ...\Documents\Arduino\hardware\espressif\esp32\tools  
-  + Click get and gen:  ![ESP32 install](https://user-images.githubusercontent.com/49629370/235330978-d56cb96c-8032-4c83-995e-6e6720e585da.png)
-  + Check it in IDE:  ![image](https://user-images.githubusercontent.com/49629370/235331088-db8737b9-3053-4350-bb5f-e3c348a513bb.png)  
+  + Click get and gen:  
+  ![ESP32 install](https://user-images.githubusercontent.com/49629370/235330978-d56cb96c-8032-4c83-995e-6e6720e585da.png)
+  + Check it in IDE:  
+  ![image](https://user-images.githubusercontent.com/49629370/235331088-db8737b9-3053-4350-bb5f-e3c348a513bb.png)  
     
     
 -Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)  
