@@ -1,15 +1,17 @@
 # ESP32_Canopus Module Quick Start Guide
 
 ## ✌️✌️✌️ Welcome! ✌️✌️✌️
-If you need modify or any request for design hardware, development of product IoT please contact me 🕴🏼:
+Hi, im Namnam 🕴🏼.  
+Please contact me if you have a need to develop ioT products.  
 - 👊🏻Facebook https://www.facebook.com/kuem0912/ 
 - 👊🏻Email: thanhnamLT5@gmail.com
 - 👊🏻Number phone: +84932912789
 - 👊🏻Whatsapp: +84969809444
 
-🕵🏻‍♀️Version 1.0  
-#### Information ESP32_Canopus board  
 
+### Information ESP32_Canopus board  
+  
+#### 🕵🏻‍♀️Version 1.0  
 |     **Object**    |      **Detail conponent**      |          **Note**     |
 | ----------------- | ------------------------------ | ----------------------|
 |        Power      | MC34063A                       | 5-35VDC               |
