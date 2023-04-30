@@ -25,10 +25,11 @@ Please contact me if you have a need to develop ioT products.
 |       Case        | Plastic                        | Mount dinrail         |  
 
 #### 🧑🏻‍🔧 Hardware Setup 
--Cable USB type C for power and upload code
+-Cable USB type C for power and upload code.  
 -Power 5-24VDC.  
-There's really no need because we used 5V power via type C cable. Both type C cable and power supply via terminal can be connected at the same time.  
--Cbale ethernet, Use for ethernet demos.  
+  There's really no need because we used 5V power via type C cable.  
+  Both type C cable and power supply via terminal can be connected at the same time.  
+-Cable ethernet, Use for ethernet demos.  
 
 #### 🧑🏼‍💻 Software Setup
 +Install IDE arduino. Follow [this](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE), skip if you done.  
