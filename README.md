@@ -62,7 +62,7 @@ FOTA - update firmware via Internet with FTP
 WATCHDOG timmer  
 Deep sleep  
 
-#### 1. Blink led  
+#### 1. #Blink led  
 
 ```c
 #define LED_YELLOW 2 //Pin led color yellow is IO2
