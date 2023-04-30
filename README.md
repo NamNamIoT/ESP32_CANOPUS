@@ -3,10 +3,10 @@
 ## ✌️✌️✌️ Welcome! ✌️✌️✌️
 Hi, im Namnam 🕴🏼.  
 Please contact me if you have a need to develop ioT products.  
-- 👊🏻Facebook https://www.facebook.com/kuem0912/ 
+- 👊🏻Facebook: [Nam Nam](https://www.facebook.com/kuem0912/)  
 - 👊🏻Email: thanhnamLT5@gmail.com
 - 👊🏻Number phone: +84932912789
-- 👊🏻Whatsapp: +84969809444
+- 👊🏻Whatsapp: https://wa.link/1mbr29  
 
 
 ### Information ESP32_Canopus board  
