@@ -25,28 +25,8 @@ If you need modify or any request for design hardware, development of product Io
 -Connect RS485 (pin A to A, pin B to B) with device modbus, or PLC, PC/laptop tool...  
 
 #### 🧑🏼‍💻 Software
--Install IDE arduino. Follow this, skip if you done.  
-[I'm an inline-style link](https://www.google.com)
+-Install IDE arduino. Follow [this]([https://www.google.com](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)), skip if you done.  
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com  
 -Install ESP32 in manager board  
 -Check define pin HardwareSerial Tx2 (IO16), Rx2 (IO17)  
 -Check denife pin ethernet  
