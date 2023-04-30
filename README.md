@@ -49,7 +49,7 @@ Please contact me if you have a need to develop ioT products.
 ## At here , you are ready 👌 to execute the sample code for the ESP32_CANOPUS board  
 ####  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because the next is a fascinating journey with Canopus board 🤪.   
 You will be stronger after working through the next 12 examples.  
-#### [Blink led](#Blink led)
+#### [Blink led](#Blink)
 #### Read modbus slave via RTU  
 Read modbus slave via TCP/IP  
 Serve master RTU  
@@ -62,7 +62,7 @@ FOTA - update firmware via Internet with FTP
 WATCHDOG timmer  
 Deep sleep  
 
-#### 1. Blink led  
+#### 1. Blink 
 
 ```c
 #define LED_YELLOW 2 //Pin led color yellow is IO2
