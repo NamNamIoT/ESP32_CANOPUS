@@ -47,7 +47,7 @@ Please contact me if you have a need to develop ioT products.
     
     
 ## At here , you are ready 👌 to execute the sample code for the ESP32_CANOPUS board  
-###  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because here is a fascinating journey with Canopus board 🤪.   
+####  ⚠️ WARNING: Prepare yourself a cup of coffee ☕☕☕, because the next is a fascinating journey with Canopus board 🤪.   
 You will be stronger after working through the next 12 examples.
 
 ### (1) Blink led  
