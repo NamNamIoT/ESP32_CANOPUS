@@ -35,7 +35,7 @@ There's really no need because we used 5V power via type C cable. Both type C ca
 ##### ⚠️ WARNING: Install in Document folder.  
 ![image](https://user-images.githubusercontent.com/49629370/235334499-7e59c503-6423-4381-9ae5-eeccecb57699.png)  
 +Install driver CH340. Follow [this](https://electropeak.com/learn/how-to-install-ch340-driver/), skip if you done.  
-+Install ESP32 in manager board:  
++Install ESP32 in manager board:
   - Down load this folder: [hardware](https://mega.nz/file/e3wlwIAI#vFoR5nT5x3zT5wkQSVknqihluzf_9Ng89H5CxPmu3Io)  
   - Extract at ...\Documents\Arduino. Ex my computer: C:\Users\NamPC\Documents\Arduino  
   - Go to ...\Documents\Arduino\hardware\espressif\esp32\tools  
