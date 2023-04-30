@@ -39,22 +39,6 @@ If you need modify or any request for design hardware, development of product Io
 You will be stronger after working through the next 9 examples.
 
 ### (1) Blink led  
-```
-
-**Modbus RTU**
-
-Modbus RTU use Serial1 on RAK3172_Canopus board
-
-| **Serial Port**   | **Serial Instance Assignment** | **Default Mode** |
-| ----------------- | ------------------------------ | ---------------- |
-| UART1 (pins 4, 5) | Serial1                        | Custom Mode      |
-
-![RAKmodbus](https://user-images.githubusercontent.com/49629370/224534542-f279d2f3-cd5c-4dbe-8af6-d8c383c315a0.PNG)
-
-
-**Example Code**
-
-Make sure you have an ModbusRTU device connected to pin A and B on Rak3172_Canopus board:
 
 ```c
 #define LED_YELLOW 12 //Pin led color yellow is IO12
